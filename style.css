@@ -10,3 +10,24 @@
     text-align: left;
     padding: 10px 70px;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #272525;
+    padding: 18px 60px;
+    font-size: 18px;
+}
+
+.body{
+    font-family: 'Inter', Nunito;
+    line-height: 1.6;
+}
+
+.header{
+    background-color: #272525;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
