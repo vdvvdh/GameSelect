@@ -20,6 +20,23 @@
     font-size: 18px;
 }
 
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 1rem;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
 body{
     font-family: 'Inter', Nunito;
     line-height: 1.6;
@@ -50,4 +67,12 @@ main {
     padding: 1rem;
     width: 200px;
     text-align: center;
+}
+
+footer {
+    background-color: #272525;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
 }
