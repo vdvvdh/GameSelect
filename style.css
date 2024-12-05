@@ -20,12 +20,12 @@
     font-size: 18px;
 }
 
-.body{
+body{
     font-family: 'Inter', Nunito;
     line-height: 1.6;
 }
 
-.header{
+header{
     background-color: #272525;
     color: #fff;
     padding: 1rem 0;
