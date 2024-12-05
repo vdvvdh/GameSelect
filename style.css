@@ -4,3 +4,9 @@
     box-sizing: border-box;
     font-family: 'Inter', Nunito;
 }
+
+.home{
+    display: flexbox;
+    text-align: left;
+    padding: 10px 70px;
+}
