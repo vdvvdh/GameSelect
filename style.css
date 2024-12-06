@@ -17,13 +17,6 @@
     margin-top: -60px;
   }
 
-.home{
-    display: flex;
-    text-align: center;
-    padding: 5px 290px;
-    transform: translateY(20px);
-}
-
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -71,9 +64,8 @@ nav ul li a {
 
 body{
     background-color: #1c1c1c;
-    font-family: 'Inter', Nunito;
     line-height: 1.6;
-    text-align: center;
+    color: #fff;
 }
 
 header{
@@ -111,6 +103,14 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.game-container img{
+    width: 100%;
+    max-width: 500px;
+    height: 150px;
+    border: 2px solid #666666;
+    border-radius: 10px;
 }
 
 .game-card{
