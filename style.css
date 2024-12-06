@@ -6,9 +6,10 @@
 }
 
 .home{
-    display: flexbox;
-    text-align: left;
-    padding: 10px 70px;
+    display: flex;
+    text-align: center;
+    padding: 5px 290px;
+    transform: translateY(20px);
 }
 
 .navbar{
@@ -16,8 +17,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: #272525;
-    padding: 18px 60px;
-    font-size: 18px;
+    padding: 10px 30px;
+    font-size: 16px;
 }
 
 nav ul {
@@ -45,7 +46,7 @@ body{
 header{
     background-color: #272525;
     color: #fff;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-align: center;
 }
 
@@ -92,3 +93,19 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+
+@media (max-width: 911px) {
+    nav ul {
+      flex-direction: column;
+    }
+  
+    .game-container {
+      flex-direction: column;
+    }
+  
+    .game-card {
+      width: 100%;
+    }
+
+  }
+  
