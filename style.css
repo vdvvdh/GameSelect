@@ -77,9 +77,11 @@ header{
 
 main {
     padding: 2rem;
-    background-image: url(62ed95e4b5e826a8b0960e54b1a11019\ \(1\).jpg);
+    background-image: url(0c73ac2c27831c222c774b69bd033e33.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: calc(100vh - 160px);
+    overflow-y: auto;
 }
 
 .search input{
@@ -126,6 +128,12 @@ main {
 
 .game-card:hover{
     transform: scale(1.05);
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 footer {
