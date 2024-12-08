@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Trirong", serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 3%;
+    background: transparent;
+}
+
+.logo{
+    font-family: "Cinzel Decorative", serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.nav_links{
+    display: flex;
+}
+
+.nav_links a{
+    color: #fff;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.nav_links a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.eldenring{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, #344170 0%, #1d24aa 28.53%, #11382b 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+section{
+    padding: 0 19%;
+}
+
+.eldenring-text h5{
+    font-size: 11px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.eldenring-text h1{
+    font-family: "Cinzel Decorative", serif;
+    font-size: 60px;
+    line-height: 1;
+    color: #fff;
+    margin: 0 0 40px;
+}
+
+.eldenring-text h4{
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.eldenring-text p{
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
