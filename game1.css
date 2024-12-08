@@ -24,6 +24,7 @@ header{
     font-family: "Cinzel Decorative", serif;
     font-size: 50px;
     font-weight: 700;
+    color: #f7dc6f;
 }
 
 .nav_links{
@@ -48,7 +49,7 @@ header{
     height: 100%;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(245.59deg, #344170 0%, #1d24aa 28.53%, #11382b 75.52%);
+    background: linear-gradient(245.59deg, #344170 0%, #1d244a 28.53%, #11382b 75.52%);
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
@@ -71,7 +72,7 @@ section{
     font-family: "Cinzel Decorative", serif;
     font-size: 60px;
     line-height: 1;
-    color: #fff;
+    color: #f7dc6f;
     margin: 0 0 40px;
 }
 
@@ -87,4 +88,47 @@ section{
     font-size: 13px;
     line-height: 1.9;
     margin-bottom: 40px;
+}
+
+.eldenring-img{
+    width: 700px;
+    height: auto;
+}
+
+.eldenring-img img{
+    width: 130%;
+    height: auto;
+    border: 3px solid #2a2a2a;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.eldenring-text a{
+    display: inline-block;
+    color: #fff;
+    background: #284256;
+    border: 1px solid transparent;
+    padding: 1px 30px;
+    line-height: 2;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: all .55s ease;
+}
+
+.eldenring-text a:hover{
+    background: #445f75;
+    border: 1px solid #fff;
+    transform: translateX(8px);
+}
+
+.eldenring-text a.ctaa{
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-left:  20px;
+}
+
+.eldenring-text a.ctaa i{
+    vertical-align: middle;
+    margin-right: 5px;
 }
