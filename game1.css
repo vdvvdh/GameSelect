@@ -132,3 +132,55 @@ section{
     vertical-align: middle;
     margin-right: 5px;
 }
+
+@media (max-width: 1535px){
+    header  {
+        padding: 15px 3%;
+        transition: .2s;
+    }
+
+}
+
+@media (max-width: 1460px){
+    section{
+        padding: 0 12%;
+        transition: 2s;
+    }
+}
+
+@media (max-width: 1340px){
+    .eldenring-img img{
+        width: 100%;
+        height: auto;
+    }
+    .eldenring-text h1{
+        font-size: 75px;
+        margin: 0 0 30px;
+    }
+    .eldenring-text h5{
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 1195px){
+    section{
+        padding: 0 3%;
+        transition: 2s;
+    }
+    .eldenring-text{
+        padding-top: 115px;
+    }
+    .eldenring-img{
+        text-align: center;
+    }
+    .eldenring-img img{
+        width: 560px;
+        height: auto;
+    }
+    .eldenring{
+        height: 100%;
+        gap: 1rem;
+        grid-template-columns: 1fr;
+    }
+
+}
