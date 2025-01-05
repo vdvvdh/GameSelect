@@ -250,7 +250,6 @@ section{
         padding: 15px 3%;
         transition: .2s;
     }
-
 }
 
 @media (max-width: 1460px){
@@ -261,15 +260,15 @@ section{
 }
 
 @media (max-width: 1340px){
-    .eldenring-img img{
+    .eldenring-img img, .dmc-img img, .nier-img img, .ninesols-img img, .darksouls-img img{
         width: 100%;
         height: auto;
     }
-    .eldenring-text h1{
+    .eldenring-text h1, .dmc-text h1, .nier-text h1, .ninesols-text h1, .darksouls-text h1{
         font-size: 75px;
         margin: 0 0 30px;
     }
-    .eldenring-text h5{
+    .eldenring-text h5, .dmc-text h5, .nier-text h1, .ninesols-text h1, .darksouls-text h1{
         margin-bottom: 25px;
     }
 }
@@ -279,17 +278,17 @@ section{
         padding: 0 3%;
         transition: 2s;
     }
-    .eldenring-text{
+    .eldenring-text, .dmc-text, .nier-text, .ninesols-text, .darksouls-text{
         padding-top: 115px;
     }
-    .eldenring-img{
+    .eldenring-img, .dmc-img, .nier-img, .ninesols-img, .darksouls-img{
         text-align: center;
     }
-    .eldenring-img img{
+    .eldenring-img img, .dmc-img img, .nier-img img, .ninesols-img img, .darksouls-img img{
         width: 560px;
         height: auto;
     }
-    .eldenring{
+    .eldenring, .dmc, .nier, .ninesols, .darksouls{
         height: 100%;
         gap: 1rem;
         grid-template-columns: 1fr;
@@ -297,6 +296,12 @@ section{
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 660px) {
+    .eldenring-img, .dmc-img, .nier-img, .ninesols-img, .darksouls-img{
+        display: none;
+    }
 
+    .nav_links{
+        display: grid;
+    }
 }
