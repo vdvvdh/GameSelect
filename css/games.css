@@ -61,7 +61,7 @@ section{
     padding: 0 19%;
 }
 
-.eldenring-text h5{
+.eldenring-text h5, .dmc-text h5, .nier-text h5, .ninesols-text h5, .darksouls-text h5{
     font-size: 11px;
     font-weight: 400;
     color: #fff;
@@ -76,34 +76,35 @@ section{
     margin: 0 0 40px;
 }
 
-.eldenring-text h4{
+.eldenring-text h4, .dmc-text h4, .nier-text h4, .ninesols-text h4, .darksouls-text h4{
     font-size: 12px;
     font-weight: 600;
     color: #fff;
     margin-bottom: 5px;
 }
 
-.eldenring-text p{
+.eldenring-text p, .dmc-text p, .nier-text p, .ninesols-text p, .darksouls-text p{
     color: #fff;
     font-size: 13px;
     line-height: 1.9;
     margin-bottom: 40px;
 }
 
-.eldenring-img{
+.eldenring-img, .dmc-img, .nier-img, .ninesols-img, .darksouls-img{
     width: 700px;
     height: auto;
 }
 
-.eldenring-img img{
+.eldenring-img img, .dmc-img img, .nier-img img, .ninesols-img img, .darksouls-img img{
     width: 130%;
     height: auto;
+    max-width: 700px;
     border: 3px solid #2a2a2a;
     border-radius: 50px;
     box-sizing: border-box;
 }
 
-.eldenring-text a{
+.eldenring-text a, .dmc-text a, .nier-text a, .ninesols-text a, .darksouls-text a{
     display: inline-block;
     color: #fff;
     background: #284256;
@@ -116,19 +117,19 @@ section{
     transition: all .55s ease;
 }
 
-.eldenring-text a:hover{
+.eldenring-text a:hover .dmc-text a:hover, .nier-text a:hover, .ninesols-text a:hover, .darksouls-text a:hover{
     background: #445f75;
     border: 1px solid #fff;
     transform: translateX(8px);
 }
 
-.eldenring-text a.ctaa{
+.eldenring-text a.ctaa, .dmc-text a.ctaa, .nier-text a.ctaa, .ninesols-text a.ctaa, .darksouls-text a.ctaa{
     background-color: transparent;
     border: 1px solid #fff;
     margin-left:  20px;
 }
 
-.eldenring-text a.ctaa i{
+.eldenring-text a.ctaa i, .dmc-text a.ctaa i, .nier-text a.ctaa i, .ninesols-text a.ctaa i, .darksouls-text a.ctaa i{
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -153,14 +154,6 @@ section{
     gap: 2rem;
 }
 
-.dmc-text h5{
-    font-size: 11px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 15px;
-    font-family: "Playfair", serif;
-}
-
 .dmc-text h1{
     font-family: "Cinzel Decorative", serif;
     font-size: 50px;
@@ -168,65 +161,6 @@ section{
     color: #010101;
     margin: 0 0 40px;
     text-shadow: -2px -2px 0 #ff0000, 2px -2px 0 #ff0000, -2px 2px 0 #ff0000, 2px 2px 0
-}
-
-.dmc-text h4{
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 5px;
-    font-family: "Playfair", serif;
-}
-
-.dmc-text p{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.9;
-    margin-bottom: 40px;
-    font-family: "Playfair", serif;
-}
-
-.dmc-img{
-    width: 700px;
-    height: auto;
-}
-
-.dmc-img img{
-    width: 130%;
-    height: auto;
-    border: 3px solid #2a2a2a;
-    border-radius: 50px;
-    box-sizing: border-box;
-}
-
-.dmc-text a{
-    display: inline-block;
-    color: #fff;
-    background: #284256;
-    border: 1px solid transparent;
-    padding: 1px 30px;
-    line-height: 2;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 30px;
-    transition: all .55s ease;
-}
-
-.dmc-text a:hover{
-    background: #445f75;
-    border: 1px solid #fff;
-    transform: translateX(8px);
-}
-
-.dmc-text a.ctaa{
-    background-color: transparent;
-    border: 1px solid #fff;
-    margin-left:  20px;
-}
-
-.dmc-text a.ctaa i{
-    vertical-align: middle;
-    margin-right: 5px;
 }
 
 .nierlogo{
@@ -248,79 +182,12 @@ section{
     gap: 2rem;
 }
 
-.nier-text h5{
-    font-size: 11px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 15px;
-    font-family: "Playfair", serif;
-}
-
 .nier-text h1{
     font-family: "Cinzel Decorative", serif;
     font-size: 60px;
     line-height: 1;
     color: #ffffff;
     margin: 0 0 40px;
-}
-
-.nier-text h4{
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 5px;
-    font-family: "Playfair", serif;
-}
-
-.nier-text p{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.9;
-    margin-bottom: 40px;
-    font-family: "Playfair", serif;
-}
-
-.nier-img{
-    width: 700px;
-    height: auto;
-}
-
-.nier-img img{
-    width: 130%;
-    height: auto;
-    border: 3px solid #b3b2b2;
-    border-radius: 50px;
-    box-sizing: border-box;
-}
-
-.nier-text a{
-    display: inline-block;
-    color: #fff;
-    background: #284256;
-    border: 1px solid transparent;
-    padding: 1px 30px;
-    line-height: 2;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 30px;
-    transition: all .55s ease;
-}
-
-.nier-text a:hover{
-    background: #445f75;
-    border: 1px solid #fff;
-    transform: translateX(8px);
-}
-
-.nier-text a.ctaa{
-    background-color: transparent;
-    border: 1px solid #fff;
-    margin-left:  20px;
-}
-
-.nier-text a.ctaa i{
-    vertical-align: middle;
-    margin-right: 5px;
 }
 
 .ninesolslogo{
@@ -342,79 +209,12 @@ section{
     gap: 2rem;
 }
 
-.ninesols-text h5{
-    font-size: 11px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 15px;
-    font-family: "Playfair", serif;
-}
-
 .ninesols-text h1{
     font-family: "Cinzel Decorative", serif;
     font-size: 60px;
     line-height: 1;
     color: #f0f3b4;
     margin: 0 0 40px;
-}
-
-.ninesols-text h4{
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 5px;
-    font-family: "Playfair", serif;
-}
-
-.ninesols-text p{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.9;
-    margin-bottom: 40px;
-    font-family: "Playfair", serif;
-}
-
-.ninesols-img{
-    width: 700px;
-    height: auto;
-}
-
-.ninesols-img img{
-    width: 130%;
-    height: auto;
-    border: 3px solid #feca5a;
-    border-radius: 50px;
-    box-sizing: border-box;
-}
-
-.ninesols-text a{
-    display: inline-block;
-    color: #fff;
-    background: #e3ae3e;
-    border: 1px solid transparent;
-    padding: 1px 30px;
-    line-height: 2;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 30px;
-    transition: all .55s ease;
-}
-
-.ninesols-text a:hover{
-    background: #fadd7d;
-    border: 1px solid #fff;
-    transform: translateX(8px);
-}
-
-.ninesols-text a.ctaa{
-    background-color: transparent;
-    border: 1px solid #fff;
-    margin-left:  20px;
-}
-
-.ninesols-text a.ctaa i{
-    vertical-align: middle;
-    margin-right: 5px;
 }
 
 .darksoulslogo{
@@ -436,14 +236,6 @@ section{
     gap: 2rem;
 }
 
-.darksouls-text h5{
-    font-size: 11px;
-    font-weight: 400;
-    color: #fff;
-    margin-bottom: 15px;
-    font-family: "Playfair", serif;
-}
-
 .darksouls-text h1{
     font-family: "Cinzel Decorative", serif;
     font-size: 60px;
@@ -452,64 +244,6 @@ section{
     margin: 0 0 40px;
 }
 
-.darksouls-text h4{
-    font-size: 12px;
-    font-weight: 600;
-    color: #fff;
-    margin-bottom: 5px;
-    font-family: "Playfair", serif;
-}
-
-.darksouls-text p{
-    color: #fff;
-    font-size: 13px;
-    line-height: 1.9;
-    margin-bottom: 40px;
-    font-family: "Playfair", serif;
-}
-
-.darksouls-img{
-    width: 700px;
-    height: auto;
-}
-
-.darksouls-img img{
-    width: 130%;
-    height: auto;
-    border: 3px solid #866622;
-    border-radius: 50px;
-    box-sizing: border-box;
-}
-
-.darksouls-text a{
-    display: inline-block;
-    color: #fff;
-    background: #e3ae3e;
-    border: 1px solid transparent;
-    padding: 1px 30px;
-    line-height: 2;
-    font-size: 14px;
-    font-weight: 500;
-    border-radius: 30px;
-    transition: all .55s ease;
-}
-
-.darksouls-text a:hover{
-    background: #fadd7d;
-    border: 1px solid #fff;
-    transform: translateX(8px);
-}
-
-.darksouls-text a.ctaa{
-    background-color: transparent;
-    border: 1px solid #fff;
-    margin-left:  20px;
-}
-
-.darksouls-text a.ctaa i{
-    vertical-align: middle;
-    margin-right: 5px;
-}
 
 @media (max-width: 1535px){
     header  {
