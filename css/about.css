@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Anton', Cinzel;
 }
 
 header{
@@ -10,18 +9,20 @@ header{
     color: #fff;
     padding: 1rem 0;
     text-align: left;
+    align-items: center;
+    font-family: 'Anton', Cinzel;
 }
 
 .header1{
     color: #ecf0f1;
     margin-top: 90px;
-    margin-left: 150px;
-    margin-bottom: 100px;
-    font-size: 50px;
+    margin-left: 450px;
+    margin-bottom: 160px;
+    font-size: 60px;
 }
 
 body{
-    background-color: #34495e;
+    background-color: #fff;
 }
 
 .navbar{
@@ -70,5 +71,126 @@ nav ul li a {
 .hamster{
     width: 400px;
     height: auto;
+    float: right;
+    margin-right: 290px;
+    border: 3px solid #8f9294;
+    border-radius: 50px;
+    box-sizing: border-box;
 }
 
+.header2{
+    margin-bottom: 50px;
+}
+
+.textabout{
+    color: black;
+    font-size: 16px;
+    font-family: 'Inter', Nunito;
+    max-width: 800px;
+    margin-left: 500px;
+    margin-top: 50px;
+    padding: 5px;
+    word-spacing: 3px;
+}
+
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-family: 'Anton', Cinzel;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.socials{
+    margin-top: 1rem;
+}
+
+.socials a{
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1535px) {
+    header {
+        padding: 1rem 1rem;
+        transition: .2s;
+    }
+
+    .header1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .hamster {
+        margin: 0 auto;
+        float: none;
+    }
+
+    .textabout {
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 1460px) {
+    .header1 {
+        padding: 0 10%;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1340px) {
+    .hamster {
+        width: 400px;
+        margin-right: 0;
+    }
+
+    .textabout {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 1195px) {
+    .header1 {
+        font-size: 45px;
+    }
+
+    .hamster {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .textabout {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 660px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hamster {
+        display: none;
+    }
+
+    .textabout {
+        font-size: 14px;
+    }
+}
+  
